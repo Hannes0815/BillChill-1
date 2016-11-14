@@ -40,4 +40,18 @@ Item {
         anchors.top: parent.top
         anchors.topMargin: 0
     }
+
+    Image {
+        id: image1
+        x: 275
+        y: 61
+        width: 100
+        height: 100
+        sourceSize.height: 100
+        sourceSize.width: 100
+        fillMode: Image.PreserveAspectFit
+        anchors.horizontalCenter: parent.horizontalCenter
+        clip: false
+        source: "Images/Baustelle.png"
+    }
 }

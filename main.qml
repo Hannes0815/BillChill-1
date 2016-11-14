@@ -13,6 +13,12 @@ ApplicationWindow {
         anchors.fill: parent
         currentIndex: tabBar.currentIndex
 
+        Drawer {
+               id: drawer
+               width: 0.66 * window.width
+               height: window.height
+           }
+
         Page1 {
         }
 
@@ -31,7 +37,7 @@ ApplicationWindow {
             text: qsTr("First")
         }
         TabButton {
-            text: qsTr("Second")
+            text: qsTr("Settings")
         }
     }
 }
