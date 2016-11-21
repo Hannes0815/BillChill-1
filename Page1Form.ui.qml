@@ -5,9 +5,10 @@ import QtGraphicalEffects.private 1.0
 
 Item {
     id: item1
-    property alias button1: button1
     property alias button2: button2
     property alias toolBar1: toolBar1
+    property alias cmd_Create_Group: cmd_Create_Group
+    property alias columnLayout1: columnLayout1
 
     ColumnLayout {
         id: columnLayout1
@@ -19,13 +20,14 @@ Item {
         anchors.horizontalCenter: parent.horizontalCenter
 
         Button {
-            id: button1
+            id: cmd_Create_Group
             width: 106
-            text: "Create Groups"
+            text: "Create Group"
         }
 
         Button {
-            id: button2
+            id: cmd_Display_Groups
+            width: 106
             text: qsTr("Display Groups")
         }
     }
