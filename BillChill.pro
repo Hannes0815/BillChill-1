@@ -13,4 +13,5 @@ QML_IMPORT_PATH =
 include(deployment.pri)
 
 DISTFILES += \
-    Images/Baustelle.png
+    Images/Baustelle.png \
+    Database/BillChill
